@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "3222017627",
+    "firebase_url": "https://dude-7cd21.firebaseio.com",
+    "project_id": "dude-7cd21",
+    "storage_bucket": "dude-7cd21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3222017627:android:795a3707c3e02b51",
+        "android_client_info": {
+          "package_name": "com.example.salman.dude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3222017627-ndl78vv1btc8ljv61mh6tpivsh4sdf2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salman.dude",
+            "certificate_hash": "4ec402e940474f0799fdde6a8c145db47376813f"
+          }
+        },
+        {
+          "client_id": "3222017627-3jm535prn79cg8muifs4cl7viuobjnpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salman.dude",
+            "certificate_hash": "8be73aa4c32962ce85999cfa415e6b4a8b5a7587"
+          }
+        },
+        {
+          "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAilkxjnIa9eC-u4T3iHUnlXnjHV2fGLeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3222017627:android:55310554e3c3f29c",
+        "android_client_info": {
+          "package_name": "com.example.salmanthaikkat.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3222017627-vm20i8ipk1a96o4e2lavi6rjc4bh3qb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salmanthaikkat.myapplication",
+            "certificate_hash": "4ec402e940474f0799fdde6a8c145db47376813f"
+          }
+        },
+        {
+          "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAilkxjnIa9eC-u4T3iHUnlXnjHV2fGLeg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3222017627-iopkb6fqjlu1a1cuc163dnh2l2jr9v69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
