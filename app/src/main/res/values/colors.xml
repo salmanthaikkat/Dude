@@ -6,4 +6,5 @@
     <color name="black_shade">#455A64</color>
     <color name="black_shade_2">#B0BEC5</color>
     <color name="white">#FFFFFF</color>
+    <color name="loginBtnColor">#AD1457</color>
 </resources>

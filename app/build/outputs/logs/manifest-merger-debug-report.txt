@@ -1,17 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a27f57d28ee992fde0c31cfdc4597382\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d29c5e5e67fb12d3220b144c16e97b23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1d948158d350020147104d311f783431\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\c6223d254234d8212f9ed27a8c5a153c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\f3a1843880e484b6bab99943d2ff8a7f\AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.0.aar\5ee24b04d2a22fc27f737432f34ad19a\AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.android.gms:play-services-vision:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.0.aar\1eec3ac228d6f682dfd4a5ef60f8fe94\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:16:1-26:12
 MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.0.aar\f4dcde7300a598a62bb25478ba0b0c62\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.6.0.aar\6b77e3914bfba5623c932830fcfc6199\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.6.0.aar\88bcd8fcc00e0f9d5fafd21a0038dbe0\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\fb0ae0896442c90e6a1e1145279aaa0c\AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.firebase:firebase-database-connection:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.0.aar\95882eed20a90dde77ce015a899ddff6\AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\2ce257ffe31d42127221684f9aa6fb29\AndroidManifest.xml:2:1-8:12
@@ -42,21 +46,23 @@ MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\Salman
 MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\2ab113d81c28dfcfe7b214e187c72135\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\74da34de1509742c771c37e8d965ca82\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.0.aar\88ff236e86f610301b3d1ed646529068\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\65f30de91f67ac8debe9f132095fe15b\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:11-69
@@ -65,13 +71,17 @@ ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:8:5-32:19
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:8:5-39:19
+MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\c6223d254234d8212f9ed27a8c5a153c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\c6223d254234d8212f9ed27a8c5a153c\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\f3a1843880e484b6bab99943d2ff8a7f\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\f3a1843880e484b6bab99943d2ff8a7f\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-vision:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.0.aar\1eec3ac228d6f682dfd4a5ef60f8fe94\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-vision:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.0.aar\1eec3ac228d6f682dfd4a5ef60f8fe94\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.0.aar\f4dcde7300a598a62bb25478ba0b0c62\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.0.aar\f4dcde7300a598a62bb25478ba0b0c62\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\fb0ae0896442c90e6a1e1145279aaa0c\AndroidManifest.xml:18:5-20:19
@@ -102,6 +112,10 @@ MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\74da34de1509742c771c37e8d965ca82\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.0.aar\88ff236e86f610301b3d1ed646529068\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.0.aar\88ff236e86f610301b3d1ed646529068\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:5:5-20
 	android:supportsRtl
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -115,49 +129,55 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] 
 	android:theme
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.salman.dude.MainActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:15:9-19:20
 	android:label
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:17:13-45
+	android:noHistory
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:16:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:18:13-22:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:19:17-69
-	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:19:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:17-77
-	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.example.salman.dude.AddTaskActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:24:9-53
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:24:19-50
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:20:19-50
 activity#com.example.salman.dude.EditTaskActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:9-54
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:9-54
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:19-51
 activity#com.example.salman.dude.AddNoteActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:26:9-53
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:22:9-53
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:22:19-50
 activity#com.example.salman.dude.EditNoteActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:9-63
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:23:9-54
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:23:19-51
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:9-110
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:9-27:35
 	android:value
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:78-97
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:13-32
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:20-77
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:26:13-70
 meta-data#preloaded_fonts
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:29:9-31:57
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:9-30:57
 	android:resource
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:31:13-54
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:30:13-54
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:29:13-43
+activity#com.example.salman.dude.LoginActivity
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:32:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:36:27-74
 uses-sdk
 INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
@@ -166,6 +186,8 @@ MERGED from [com.android.support:multidex:1.0.3] C:\Users\Salman Thaikkat\.gradl
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a27f57d28ee992fde0c31cfdc4597382\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d29c5e5e67fb12d3220b144c16e97b23\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d29c5e5e67fb12d3220b144c16e97b23\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1d948158d350020147104d311f783431\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1d948158d350020147104d311f783431\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\c6223d254234d8212f9ed27a8c5a153c\AndroidManifest.xml:5:5-7:41
@@ -176,8 +198,14 @@ MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\Salman Thaik
 MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.0.aar\5ee24b04d2a22fc27f737432f34ad19a\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-vision:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.0.aar\1eec3ac228d6f682dfd4a5ef60f8fe94\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-vision:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.0.aar\1eec3ac228d6f682dfd4a5ef60f8fe94\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.0.aar\f4dcde7300a598a62bb25478ba0b0c62\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.0.aar\f4dcde7300a598a62bb25478ba0b0c62\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.6.0.aar\6b77e3914bfba5623c932830fcfc6199\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.6.0.aar\6b77e3914bfba5623c932830fcfc6199\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.6.0.aar\88bcd8fcc00e0f9d5fafd21a0038dbe0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.6.0.aar\88bcd8fcc00e0f9d5fafd21a0038dbe0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\fb0ae0896442c90e6a1e1145279aaa0c\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\fb0ae0896442c90e6a1e1145279aaa0c\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-database-connection:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.0.aar\95882eed20a90dde77ce015a899ddff6\AndroidManifest.xml:3:5-43
@@ -238,6 +266,10 @@ MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:
 MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\74da34de1509742c771c37e8d965ca82\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.0.aar\88ff236e86f610301b3d1ed646529068\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.0.aar\88ff236e86f610301b3d1ed646529068\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:4:5-43
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\65f30de91f67ac8debe9f132095fe15b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\65f30de91f67ac8debe9f132095fe15b\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
@@ -250,6 +282,24 @@ INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\A
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.6.0.aar\f9e714124da2546f433c445f579242ba\AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\fb0ae0896442c90e6a1e1145279aaa0c\AndroidManifest.xml:19:9-172
 	android:exported

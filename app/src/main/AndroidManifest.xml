@@ -14,21 +14,28 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".AddTaskActivity" />
+        <activity android:name=".EditTaskActivity" />
+        <activity android:name=".AddNoteActivity" />
+        <activity android:name=".EditNoteActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="orc" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddTaskActivity" />
-        <activity android:name=".EditTaskActivity" />
-        <activity android:name=".AddNoteActivity" />
-        <activity android:name=".EditNoteActivity"></activity>
-        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="orc"></meta-data>
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
