@@ -64,14 +64,5 @@
         android:background="@color/black_shade"
         android:textColor="@color/white"/>
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/loadingAnimation"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/passwordBox"
-        android:layout_centerHorizontal="true"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading_animation" />
 
 </RelativeLayout>

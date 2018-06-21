@@ -22,6 +22,8 @@ import android.widget.Toast;
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -35,6 +37,8 @@ public class AddNoteActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
     ImageView openCameraBtn;
     ImageView textImageView;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -48,6 +52,9 @@ public class AddNoteActivity extends AppCompatActivity {
         noteContentText=(EditText)findViewById(R.id.noteContentText);
         openCameraBtn=(ImageView) findViewById(R.id.openCameraBtn);
         textImageView=(ImageView)findViewById(R.id.textImageView);
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
 
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,7 +83,7 @@ public class AddNoteActivity extends AppCompatActivity {
                     inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                             InputMethodManager.HIDE_NOT_ALWAYS);
                     Note note=new Note(noteTitle,noteContent);
-                    databaseReference=firebaseDatabase.getInstance().getReference("Notes");
+                    databaseReference=firebaseDatabase.getInstance().getReference("Notes").child(userID);
                     databaseReference.push().setValue(note);
                     noteTitleText.setText("");
                     noteContentText.setText("");

@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -23,6 +25,8 @@ public class AddTaskActivity extends AppCompatActivity {
     EditText taskEdit;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,9 @@ public class AddTaskActivity extends AppCompatActivity {
         backButton = (ImageView) findViewById(R.id.backBtnTask);
         saveButton = (ImageView) findViewById(R.id.addBtnTask);
         taskEdit = (EditText) findViewById(R.id.task);
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,7 +66,7 @@ public class AddTaskActivity extends AppCompatActivity {
                     inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                             InputMethodManager.HIDE_NOT_ALWAYS);
                     Task task = new Task(taskData, false);
-                    databaseReference = firebaseDatabase.getInstance().getReference("Tasks");
+                    databaseReference = firebaseDatabase.getInstance().getReference("Tasks").child(userID);
                     databaseReference.push().setValue(task);
                     taskEdit.setText("");
                     Toasty.success(AddTaskActivity.this,"Task Added",Toast.LENGTH_SHORT).show();

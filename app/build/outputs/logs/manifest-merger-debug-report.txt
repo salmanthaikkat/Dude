@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a27f57d28ee992fde0c31cfdc4597382\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d29c5e5e67fb12d3220b144c16e97b23\AndroidManifest.xml:17:1-22:12
 MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:2:1-13:12
@@ -49,20 +49,20 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] 
 MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.6.0.aar\b94db3a8ba3a9056a8f706b6022e07e9\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.6.0.aar\493d7a52c93e692c8045c1a318c4f625\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\65f30de91f67ac8debe9f132095fe15b\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,7 +71,7 @@ ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:8:5-39:19
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:8:5-45:19
 MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:11:5-20
 MERGED from [com.airbnb.android:lottie:2.5.5] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\lottie-2.5.5.aar\0aba964a5830d0ed6dc589f32ff0981a\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\Salman Thaikkat\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\c6223d254234d8212f9ed27a8c5a153c\AndroidManifest.xml:9:5-20
@@ -121,63 +121,73 @@ MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] C:\U
 	android:label
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:12:9-56
 	android:icon
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:10:9-45
 	android:allowBackup
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.salman.dude.MainActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:15:9-19:20
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:16:9-20:20
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:19:13-49
 	android:label
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:17:13-45
-	android:noHistory
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:17:13-41
 activity#com.example.salman.dude.AddTaskActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:9-22:51
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:22:13-49
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:20:19-50
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:19-50
 activity#com.example.salman.dude.EditTaskActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:9-54
-	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:21:19-51
-activity#com.example.salman.dude.AddNoteActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:22:9-53
-	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:22:19-50
-activity#com.example.salman.dude.EditNoteActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:23:9-54
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:23:9-24:51
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:24:13-49
 	android:name
 		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:23:19-51
+activity#com.example.salman.dude.AddNoteActivity
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:9-26:51
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:19-50
+activity#com.example.salman.dude.EditNoteActivity
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:9-28:51
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:19-51
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:25:9-27:35
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:30:9-32:35
 	android:value
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:27:13-32
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:32:13-32
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:26:13-70
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:31:13-70
 meta-data#preloaded_fonts
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:28:9-30:57
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:33:9-35:57
 	android:resource
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:30:13-54
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:35:13-54
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:34:13-43
 activity#com.example.salman.dude.LoginActivity
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:37:9-44:20
+	android:screenOrientation
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:32:19-48
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:37:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml:42:27-74
 uses-sdk
 INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Salman Thaikkat\AndroidStudioProjects\Dude\app\src\main\AndroidManifest.xml

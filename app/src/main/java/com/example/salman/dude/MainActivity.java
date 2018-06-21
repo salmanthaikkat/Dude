@@ -8,16 +8,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+
+import es.dmoral.toasty.Toasty;
 
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationViewEx bottomNavigationViewEx;
-
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     @Override
     public void onBackPressed() {
-        android.os.Process.killProcess(android.os.Process.myPid());
+        finish();
     }
 
     @Override
@@ -26,6 +36,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         bottomNavigationViewEx=(BottomNavigationViewEx) findViewById(R.id.navigation);
+
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+
+        DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
+        connectedRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                boolean connected = snapshot.getValue(Boolean.class);
+                if (connected) {
+                    Toasty.info(MainActivity.this,"Online",Toast.LENGTH_SHORT).show();
+                } else {
+                    Toasty.error(MainActivity.this,"Offline",Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                System.err.println("Listener was cancelled");
+            }
+        });
 
         bottomNavigationViewEx.enableAnimation(true);
         bottomNavigationViewEx.enableShiftingMode(false);

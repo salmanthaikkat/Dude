@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -25,6 +27,8 @@ public class EditTaskActivity extends AppCompatActivity {
     EditText taskTitle;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,9 @@ public class EditTaskActivity extends AppCompatActivity {
         backBtn=(ImageView)findViewById(R.id.backBtn);
         saveBtn=(ImageView)findViewById(R.id.editBtn);
         taskTitle=(EditText)findViewById(R.id.task);
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
         final String task_title=getIntent().getStringExtra("TASK_TITLE");
         taskTitle.setText(task_title);
         backBtn.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +65,7 @@ public class EditTaskActivity extends AppCompatActivity {
 
                     inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                             InputMethodManager.HIDE_NOT_ALWAYS);
-                    databaseReference=firebaseDatabase.getInstance().getReference("Tasks");
+                    databaseReference=firebaseDatabase.getInstance().getReference("Tasks").child(userID);
                     Query query=databaseReference.orderByChild("task_title").equalTo(task_title);
                     query.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override

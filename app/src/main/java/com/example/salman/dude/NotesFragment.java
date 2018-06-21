@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -31,6 +33,8 @@ public class NotesFragment extends Fragment {
     List<String> Keys=new ArrayList<>();
     FloatingActionButton addNoteBtn;
     ImageView noNoteText;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     public NotesFragment() {
         // Required empty public constructor
@@ -41,7 +45,10 @@ public class NotesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_notes, container, false);
-        databaseReference=firebaseDatabase.getInstance().getReference("Notes");
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
+        databaseReference=firebaseDatabase.getInstance().getReference("Notes").child(userID);
         recyclerView=(RecyclerView)view.findViewById(R.id.note_recyclerView);
         addNoteBtn=(FloatingActionButton)view.findViewById(R.id.addNoteBtn);
         noNoteText=(ImageView)view.findViewById(R.id.noNoteText);

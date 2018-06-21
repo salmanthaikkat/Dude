@@ -15,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -39,6 +41,8 @@ public class TaskFragment extends Fragment {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     ImageView noTaskText;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     public TaskFragment() {
         // Required empty public constructor
@@ -48,7 +52,10 @@ public class TaskFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        databaseReference = firebaseDatabase.getInstance().getReference("Tasks");
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
+        databaseReference = firebaseDatabase.getInstance().getReference("Tasks").child(userID);
         final View view=inflater.inflate(R.layout.fragment_task, container, false);
         recyclerView=(RecyclerView)view.findViewById(R.id.task_recyclerView);
         addTaskButton=(FloatingActionButton)view.findViewById(R.id.addTaskBtn);

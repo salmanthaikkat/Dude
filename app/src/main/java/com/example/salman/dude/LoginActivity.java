@@ -46,7 +46,6 @@ public class LoginActivity extends AppCompatActivity {
                 final View regView=getLayoutInflater().inflate(R.layout.register_dialog,null);
                 final TextInputEditText usernameField=(TextInputEditText)regView.findViewById(R.id.regUsernameField);
                 final TextInputEditText passwordField=(TextInputEditText)regView.findViewById(R.id.regPasswordField);
-                final LottieAnimationView loadingAnim=(LottieAnimationView)regView.findViewById(R.id.loadingAnimation);
                 final Button regButton=(Button)regView.findViewById(R.id.dialog_regBtn);
                 regButton.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -141,7 +140,6 @@ public class LoginActivity extends AppCompatActivity {
         if(userID!=null||userEmail!=null){
             Intent intent=new Intent(LoginActivity.this,MainActivity.class);
             getApplicationContext().startActivity(intent);
-            finish();
         }
     }
 }

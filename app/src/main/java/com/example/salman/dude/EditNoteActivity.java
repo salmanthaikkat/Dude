@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,6 +26,8 @@ public class EditNoteActivity extends AppCompatActivity {
     EditText noteTitle,noteContent;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
+    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,9 @@ public class EditNoteActivity extends AppCompatActivity {
         doneBtn=(ImageView)findViewById(R.id.addBtnNote);
         noteTitle=(EditText)findViewById(R.id.noteTitleText);
         noteContent=(EditText)findViewById(R.id.noteContentText);
+        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseUser=firebaseAuth.getCurrentUser();
+        final String userID=firebaseUser.getUid();
 
         final String note_title=getIntent().getStringExtra("NOTE_TITLE");
         final String note_content=getIntent().getStringExtra("NOTE_CONTENT");
@@ -64,7 +71,7 @@ public class EditNoteActivity extends AppCompatActivity {
 
                     inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                             InputMethodManager.HIDE_NOT_ALWAYS);
-                    databaseReference=firebaseDatabase.getInstance().getReference("Notes");
+                    databaseReference=firebaseDatabase.getInstance().getReference("Notes").child(userID);
                     Query query=databaseReference.orderByChild("noteTitle").equalTo(note_title);
                     query.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
