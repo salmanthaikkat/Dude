@@ -140,6 +140,15 @@ public class LoginActivity extends AppCompatActivity {
         if(userID!=null||userEmail!=null){
             Intent intent=new Intent(LoginActivity.this,MainActivity.class);
             getApplicationContext().startActivity(intent);
+            finish();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        startActivity(intent);
     }
 }

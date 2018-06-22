@@ -1,5 +1,6 @@
 package com.example.salman.dude;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -25,8 +26,12 @@ public class MainActivity extends AppCompatActivity {
     FirebaseUser firebaseUser;
     FirebaseAuth firebaseAuth;
 
+
     @Override
     public void onBackPressed() {
+//        Intent intent = new Intent(Intent.ACTION_MAIN);
+//        intent.addCategory(Intent.CATEGORY_HOME);
+//        startActivity(intent);
         finish();
     }
 
@@ -35,9 +40,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         bottomNavigationViewEx=(BottomNavigationViewEx) findViewById(R.id.navigation);
 
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         connectedRef.addValueEventListener(new ValueEventListener() {
